@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.bg-overlay:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.bg-color {
+    background: #F4FAFD;
+}
+
+.button-info {
+    background: #fff;
+    padding: 11px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #289BDE;
+    border: 0;
+    border-radius: 5px;
+}
+
+@media(max-width:576px) {
+    .my-query {
+        padding-top: 0px;
+        padding-bottom: 145px;
+    }
+    .my-query h1 {
+        font-size: 18px;
+    }
+    .my-query p {
+        font-size: 10px;
+    }
+    .image-details {
+        width: 100%;
+    }
+    .button-responsive {
+        transform: translateX(20%);
+    }
+    .join-content h2,
+    .join-content p {
+        text-align: center !important;
+    }
+    .student-info h2,
+    .student-info p {
+        text-align: center;
+    }
+    .image-content h5,
+    .image-content p {
+        text-align: center;
+    }
+    #company {
+        display: none;
+    }
+}
+
+@media(min-width:577px) and (max-width:992px) {
+    .button-responsive {
+        transform: translateX(40%);
+    }
+    .join-content h2,
+    .join-content p {
+        text-align: center !important;
+    }
+    .student-info h2,
+    .student-info p {
+        text-align: center;
+    }
+    .image-content h5,
+    .image-content p {
+        text-align: center;
+    }
+    #company {
+        display: none;
+    }
+}
