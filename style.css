@@ -35,6 +35,9 @@ body {
     border-radius: 5px;
 }
 
+
+/* Custom responsive css start */
+
 @media(max-width:576px) {
     .my-query {
         padding-top: 0px;
@@ -89,3 +92,6 @@ body {
         display: none;
     }
 }
+
+
+/* Custom responsive css end */
